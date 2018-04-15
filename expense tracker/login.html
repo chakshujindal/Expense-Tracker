@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:0;
+    overflow: hidden;
+      } 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size:25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.user{ align-content: center;
+       height:200px;
+       width:350px;
+       background-color: rgba(0, 0, 0, 0.4);
+       margin-left: 40%;
+       margin-top: 200px;
+       
+  
+}
+
+.table{
+    align-content: center;
+   align-items: center;
+
+}
+.tr{ right: 40px;
+
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a  href="#home">Home</a></li>
+  <li><a class="active" href="#news">Login</a></li>
+  <li><a href="#contact">Register</a></li>
+  <li><a href="#about">Contact Us</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:650px; ">
+
+<div class="user">
+<br><br><br>
+
+<table>
+<tr>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;Username:
+</td>
+<td> 
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="username">
+</td>
+</tr>
+<tr>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;Password: 
+</td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="password">
+</td>
+</tr>
+<tr>
+<td></td>
+<td>
+&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="submit"></td>
+</tr>
+<tr>
+<td></td>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;Forgot password??</td>
+</tr>
+</table>
+</div>
+</div>
+
+</body>
+</html>
+
